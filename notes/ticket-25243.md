@@ -19,6 +19,7 @@ Vocabulary
 	- A django feature that allows you to point to a table in the database, and it will output the Django model for that database.
 	- I tried it out on my project, which had already declared the django models. It output models with `class Meta.managed = False`.
 - sqlite_master
+    - From Jacob Walls comment on the PR: "This was renamed to sqlite_schema in 3.33.0"
 
 ## PR Review
 
@@ -96,3 +97,6 @@ Use LLM to help identify that commit [483e30c3d5](https://github.com/django/djan
 
 ### 2026-07-12
 - Left a comment asking if this should be closed as "worksforme" or proceed with adding regressions test as provided in existing PR.
+
+### 2026-07-13
+- Jacob Walls: "we generally add meaningful regression tests when we find accidentally fixed tickets, so +1 for keeping the PR"
