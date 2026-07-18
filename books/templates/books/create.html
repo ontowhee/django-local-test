@@ -1,0 +1,5 @@
+{% load crispy_forms_tags %}
+
+<form action="{% url 'books:create' %}" class="my-class" method="post">
+    {% crispy form %}
+</form>
