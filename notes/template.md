@@ -1,4 +1,4 @@
-# Ticket XXXX — Short description
+# Ticket XXXX - Short description
 
 - **Branch:** `ticket-XXXX`
 - **Date:** YYYY-MM-DD
